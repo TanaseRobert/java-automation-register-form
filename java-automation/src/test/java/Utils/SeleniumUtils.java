@@ -35,10 +35,6 @@ public class SeleniumUtils {
                 WebDriverManager.iedriver().setup();
                 driver = new InternetExplorerDriver();
                 break;
-            case SAFARI:
-                WebDriverManager.safaridriver().setup();
-                driver = new SafariDriver();
-                break;
         }
         return driver;
     }
